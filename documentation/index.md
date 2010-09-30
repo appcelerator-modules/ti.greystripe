@@ -32,7 +32,7 @@ Creates and returns a [ti.greystripe.View][] object.
 
 ### ti.greystripe.BANNER
 
-A size constant for a banner-sized ad.
+A size constant for a banner-sized (320x48) ad.
 
 ### ti.greystripe.IPHONE_FULLSCREEN
 
@@ -40,15 +40,15 @@ A size constant for a fullscreen ad on iPhone/iPod.
 
 ### ti.greystripe.IPAD_MEDIUM_RECTANGLE
 
-A size constant for a rectangular ad on iPad.
+A size constant for a rectangular (300x250) ad on iPad.
 
 ### ti.greystripe.IPAD_LEADERBOARD
 
-A size constant for a leaderboard-sized ad on iPad.
+A size constant for a wide (728x90) ad on iPad
 
 ### ti.greystripe.IPAD_WIDE_SKYSCRAPER
 
-A size constant for a large ad on iPad.
+A size constant for a tall (160x600) ad on iPad.
 
 ## Usage
 
