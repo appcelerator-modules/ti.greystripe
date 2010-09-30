@@ -4,13 +4,26 @@
  * Appcelerator Titanium is Copyright (c) 2009-2010 by Appcelerator, Inc.
  * and licensed under the Apache Public License (version 2)
  */
-#import "GreystripeModule.h"
+#import "TiGreystripeModule.h"
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
 #import "TiApp.h"
 
-@implementation GreystripeModule
+@implementation TiGreystripeModule
+
+// this is generated for your module, please do not change it
+-(id)moduleGUID
+{
+	return @"03dc7887-2abe-4bb5-bd9a-00910721a1f4";
+}
+
+// this is generated for your module, please do not change it
+-(NSString*)moduleId
+{
+	return @"ti.greystripe";
+}
+
 
 #pragma mark Lifecycle
 

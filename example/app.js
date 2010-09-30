@@ -10,31 +10,17 @@ var window = Ti.UI.createWindow({
 });
 window.open();
 
+Titanium.Greystripe = require('ti.greystripe');
 
-var button = Ti.UI.createButton({
-	title:"Scan QR Code",
-	width:150,
-	height:40,
-	top:20
+Titanium.Greystripe.setup({
+	applicationId:'4b033390-9407-4d8c-a550-8068c753a694',
+	adSlots:[{size:Titanium.Greystripe.BANNER, name:'ad1'}]
 });
-
-window.add(button);
-
-button.addEventListener('click',function()
-{
-	Titanium.Barcode.capture({
-		success: function(event)
-		{
-			alert("success = "+event.result);
-		},
-		cancel: function(event)
-		{
-			alert("cancel");
-		},
-		error: function(event)
-		{
-			alert("Error. "+event.message);
-		},
-		soundURL:"beep-beep.caf"
-	});
+var view = Titanium.Greystripe.createView({
+	name:'ad1',
+	height:48,
+	top:10,
+	left:10,
+	right:10
 });
+window.add(view);

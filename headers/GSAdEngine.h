@@ -82,7 +82,7 @@ typedef enum GSAdSize {
  *					display
  * @return	YES if the given slot exists and there is an ad ready to be 
  *			displayed, or NO if no ad is ready for this slot or there is no 
- *			network connection.
+ *			network connection
  */
 + (BOOL)displayFullScreenAdForSlotNamed:(NSString *)a_name;
 
@@ -102,13 +102,28 @@ typedef enum GSAdSize {
 
 /**
  * Return whether an ad is ready to be displayed for the slot of the given
- * name.
+ * name. Note that the semantics of this method differ based on whether the 
+ * given slot is full-screen. For full-screen ads the semantics are the same
+ * as isNextAdDownloadedForSlotNamed:, but for non-full-screen ads a return
+ * value of YES means that ad content is ready to be displayed and your app
+ * should therefore wire up the associated GSAdView to your view hierarchy.
  * 
  * @param	a_name	the name of the slot
  * @return	YES if an ad is ready to be displayed for the slot with the given 
  *			name, otherwise NO
  */
 + (BOOL)isAdReadyForSlotNamed:(NSString *)a_name;
+
+/**
+ * Return whether the next ad has been downloaded for the slot of the given 
+ * name. For non-full-screen ads, your app may want to respond to a return 
+ * value of YES by attempting to refresh the associated GSAdView.
+ * 
+ * @param	a_name	the name of the slot
+ * @return	YES if a the next ad to be displayed for the slot of the given name
+ *			has been downloaded
+ */
++ (BOOL)isNextAdDownloadedForSlotNamed:(NSString *)a_name;
 
 /**
  * Return the version string corresponding to this version and build of the

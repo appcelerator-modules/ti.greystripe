@@ -7,7 +7,7 @@
 #import "TiModule.h"
 #import "GSAdEngine.h"
 
-@interface GreystripeModule : TiModule
+@interface TiGreystripeModule : TiModule
 {
 }
 

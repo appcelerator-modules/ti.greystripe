@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		249BE53B11B46E0E00AF41CF /* GreystripeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE53911B46E0E00AF41CF /* GreystripeModule.h */; };
-		249BE53C11B46E0E00AF41CF /* GreystripeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BE53A11B46E0E00AF41CF /* GreystripeModule.m */; };
 		249BE54711B46E5700AF41CF /* GreystripeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE54411B46E5700AF41CF /* GreystripeDelegate.h */; };
 		249BE54811B46E5700AF41CF /* GSAdEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE54511B46E5700AF41CF /* GSAdEngine.h */; };
 		249BE54911B46E5700AF41CF /* GSAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE54611B46E5700AF41CF /* GSAdView.h */; };
@@ -19,11 +17,19 @@
 		249BE5C111B470A200AF41CF /* TiGreystripeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BE5BF11B470A200AF41CF /* TiGreystripeView.m */; };
 		AA747D9F0F9514B9006C5449 /* greystripe_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* greystripe_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		DAA0153912540C020087958F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA0153812540C020087958F /* UIKit.framework */; };
+		DAA015A912540DD60087958F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA015A812540DD60087958F /* AudioToolbox.framework */; };
+		DAA015AC12540DDB0087958F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA015AB12540DDB0087958F /* AVFoundation.framework */; };
+		DAA015AF12540DEB0087958F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA015AE12540DEB0087958F /* CoreGraphics.framework */; };
+		DAA015B212540DF30087958F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA015B112540DF30087958F /* MediaPlayer.framework */; };
+		DAA015B512540DFF0087958F /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA015B412540DFF0087958F /* OpenAL.framework */; };
+		DAA015B812540E0E0087958F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA015B712540E0E0087958F /* QuartzCore.framework */; };
+		DAA015BA12540E0E0087958F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA015B912540E0E0087958F /* SystemConfiguration.framework */; };
+		DAA015C8125410720087958F /* TiGreystripeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA015C6125410720087958F /* TiGreystripeModule.h */; };
+		DAA015C9125410720087958F /* TiGreystripeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA015C7125410720087958F /* TiGreystripeModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		249BE53911B46E0E00AF41CF /* GreystripeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GreystripeModule.h; path = Classes/GreystripeModule.h; sourceTree = "<group>"; };
-		249BE53A11B46E0E00AF41CF /* GreystripeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GreystripeModule.m; path = Classes/GreystripeModule.m; sourceTree = "<group>"; };
 		249BE54411B46E5700AF41CF /* GreystripeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreystripeDelegate.h; sourceTree = "<group>"; };
 		249BE54511B46E5700AF41CF /* GSAdEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAdEngine.h; sourceTree = "<group>"; };
 		249BE54611B46E5700AF41CF /* GSAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAdView.h; sourceTree = "<group>"; };
@@ -36,6 +42,16 @@
 		AA747D9E0F9514B9006C5449 /* greystripe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = greystripe_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libgreystripe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgreystripe.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA0153812540C020087958F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DAA015A812540DD60087958F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DAA015AB12540DDB0087958F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DAA015AE12540DEB0087958F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DAA015B112540DF30087958F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DAA015B412540DFF0087958F /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		DAA015B712540E0E0087958F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DAA015B912540E0E0087958F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DAA015C6125410720087958F /* TiGreystripeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiGreystripeModule.h; path = Classes/TiGreystripeModule.h; sourceTree = "<group>"; };
+		DAA015C7125410720087958F /* TiGreystripeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiGreystripeModule.m; path = Classes/TiGreystripeModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +61,14 @@
 			files = (
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
 				249BE59811B46E6000AF41CF /* libGreystripeSDK.a in Frameworks */,
+				DAA0153912540C020087958F /* UIKit.framework in Frameworks */,
+				DAA015A912540DD60087958F /* AudioToolbox.framework in Frameworks */,
+				DAA015AC12540DDB0087958F /* AVFoundation.framework in Frameworks */,
+				DAA015AF12540DEB0087958F /* CoreGraphics.framework in Frameworks */,
+				DAA015B212540DF30087958F /* MediaPlayer.framework in Frameworks */,
+				DAA015B512540DFF0087958F /* OpenAL.framework in Frameworks */,
+				DAA015B812540E0E0087958F /* QuartzCore.framework in Frameworks */,
+				DAA015BA12540E0E0087958F /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +100,14 @@
 			children = (
 				249BE59711B46E6000AF41CF /* libGreystripeSDK.a */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				DAA0153812540C020087958F /* UIKit.framework */,
+				DAA015A812540DD60087958F /* AudioToolbox.framework */,
+				DAA015AB12540DDB0087958F /* AVFoundation.framework */,
+				DAA015AE12540DEB0087958F /* CoreGraphics.framework */,
+				DAA015B112540DF30087958F /* MediaPlayer.framework */,
+				DAA015B412540DFF0087958F /* OpenAL.framework */,
+				DAA015B712540E0E0087958F /* QuartzCore.framework */,
+				DAA015B912540E0E0087958F /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,8 +115,8 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				249BE53911B46E0E00AF41CF /* GreystripeModule.h */,
-				249BE53A11B46E0E00AF41CF /* GreystripeModule.m */,
+				DAA015C6125410720087958F /* TiGreystripeModule.h */,
+				DAA015C7125410720087958F /* TiGreystripeModule.m */,
 				249BE5BA11B4709300AF41CF /* TiGreystripeViewProxy.h */,
 				249BE5BB11B4709300AF41CF /* TiGreystripeViewProxy.m */,
 				249BE5BE11B470A200AF41CF /* TiGreystripeView.h */,
@@ -120,12 +152,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA747D9F0F9514B9006C5449 /* greystripe_Prefix.pch in Headers */,
-				249BE53B11B46E0E00AF41CF /* GreystripeModule.h in Headers */,
 				249BE54711B46E5700AF41CF /* GreystripeDelegate.h in Headers */,
 				249BE54811B46E5700AF41CF /* GSAdEngine.h in Headers */,
 				249BE54911B46E5700AF41CF /* GSAdView.h in Headers */,
 				249BE5BC11B4709300AF41CF /* TiGreystripeViewProxy.h in Headers */,
 				249BE5C011B470A200AF41CF /* TiGreystripeView.h in Headers */,
+				DAA015C8125410720087958F /* TiGreystripeModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +188,14 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "greystripe" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* greystripe */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
@@ -172,9 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				249BE53C11B46E0E00AF41CF /* GreystripeModule.m in Sources */,
 				249BE5BD11B4709300AF41CF /* TiGreystripeViewProxy.m in Sources */,
 				249BE5C111B470A200AF41CF /* TiGreystripeView.m in Sources */,
+				DAA015C9125410720087958F /* TiGreystripeModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +240,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = greystripe;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};
@@ -220,6 +260,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = greystripe;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Release;
 		};

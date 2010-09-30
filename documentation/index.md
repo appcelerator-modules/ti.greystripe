@@ -1,33 +1,66 @@
-# barcode Module
+# greystripe Module
 
 ## Description
 
-TODO: Enter your module description here
+Module which provides access to the greystripe ad delivery system.
+
+## Accessing the greystripe Module
+
+To access this module from JavaScript, you would do the following:
+
+	var greystripe = require("ti.greystripe");
+
+The greystripe variable is a reference to the Module object.	
 
 ## Reference
 
-TODO: If your module has an API, you should document
-the reference here.
+## Functions
 
-### Titanium.___PROJECTNAMEASIDENTIFIER__.function
+### ti.greystripe.setup({...})
 
-TODO: This is an example of a module function.
+Sets up and initializes the greystripe ad delivery system.  Takes one argument,
+a dictionary with properties:
 
-### Titanium.___PROJECTNAMEASIDENTIFIER__.property
+applicationId[string]: Your application's ID in the greystripe system
+adSlots[array]: An array of available slots, composed of {size:...,name:...} dictionaries.
 
-TODO: This is an example of a module property.
+### ti.greystripe.createView({...})
+
+Creates and returns a [ti.greystripe.View][] object.
+
+## Properties
+
+### ti.greystripe.BANNER
+
+A size constant for a banner-sized ad.
+
+### ti.greystripe.IPHONE_FULLSCREEN
+
+A size constant for a fullscreen ad on iPhone/iPod.
+
+### ti.greystripe.IPAD_MEDIUM_RECTANGLE
+
+A size constant for a rectangular ad on iPad.
+
+### ti.greystripe.IPAD_LEADERBOARD
+
+A size constant for a leaderboard-sized ad on iPad.
+
+### ti.greystripe.IPAD_WIDE_SKYSCRAPER
+
+A size constant for a large ad on iPad.
 
 ## Usage
 
-TODO: Enter your usage example here
+See example
 
 ## Author
 
-TODO: Enter your author name, email and other contact
-details you want to share here. 
+Jeff Haynie <jhaynie@appcelerator.com>, Appcelerator Inc.
 
 ## License
 
 TODO: Enter your license/legal information here.
 
+[ti.greystripe.View]: view.html
 

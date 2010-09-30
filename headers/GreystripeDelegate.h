@@ -1,11 +1,18 @@
 /// @file GreystripeDelegate.h
 //  Copyright 2010 Greystripe, Inc. All rights reserved.
 
-@protocol GreystripeDelegate<NSObject>
-
-- (void)greystripeAdReadyForSlotNamed:(NSString *)a_name;
+@protocol GreystripeDelegate <NSObject>
 
 @optional
+/**
+ * Sent by the Greystripe SDK whenever an ad has become ready to be displayed
+ * for the slot of the given name. This message is most useful for non-full-
+ * screen ad slots, as you'll likely want to respond to the message by 
+ * wiring up the GSAdView for the slot of the given name to your view 
+ * hierarchy so that you may display the ad.
+ */
+- (void)greystripeAdReadyForSlotNamed:(NSString *)a_name;
+
 /**
  * Sent by the Greystripe SDK whenever a full-screen Greystripe display is 
  * about to open. This may result from a click on an expandable ad or the 
