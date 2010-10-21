@@ -13,7 +13,7 @@ window.open();
 Titanium.Greystripe = require('ti.greystripe');
 
 Titanium.Greystripe.setup({
-	applicationId:'4b033390-9407-4d8c-a550-8068c753a694',
+	applicationId:'<<<YOUR APP ID HERE>>>',
 	adSlots:[{size:Titanium.Greystripe.BANNER, name:'ad1'}]
 });
 var view = Titanium.Greystripe.createView({

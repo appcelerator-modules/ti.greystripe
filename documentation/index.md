@@ -21,7 +21,7 @@ The greystripe variable is a reference to the Module object.
 Sets up and initializes the greystripe ad delivery system.  Takes one argument,
 a dictionary with properties:
 
-applicationId[string]: Your application's ID in the greystripe system
+applicationId[string]: Your application's ID in the greystripe system  
 adSlots[array]: An array of available slots, composed of {size:...,name:...} dictionaries.
 
 ### ti.greystripe.createView({...})
