@@ -1,26 +1,21 @@
-// This is a test harness for your module
-// You should do something interesting in this harness 
-// to test out the module and to provide instructions 
-// to users on how to use it by example.
+var window = Ti.UI.createWindow({ backgroundColor: '#fff' });
 
+Titanium.Greystripe = Ti.Greystripe = require('ti.greystripe');
 
-// open a single window
-var window = Ti.UI.createWindow({
-  backgroundColor:'white'
+Ti.Greystripe.setup({
+    applicationId: '<<< YOUR APP ID HERE >>>', // Sign up at https://developer.greystripe.com/user/new
+    adSlots: [
+        { size: Ti.Greystripe.BANNER, name: 'ad1'}
+    ]
 });
-window.open();
-
-Titanium.Greystripe = require('ti.greystripe');
-
-Titanium.Greystripe.setup({
-	applicationId:'<<<YOUR APP ID HERE>>>',
-	adSlots:[{size:Titanium.Greystripe.BANNER, name:'ad1'}]
-});
-var view = Titanium.Greystripe.createView({
-	name:'ad1',
-	height:48,
-	top:10,
-	left:10,
-	right:10
+var view = Ti.Greystripe.createView({
+    name: 'ad1',
+    height: 48,
+    top: 0, left: 0, right: 0
 });
 window.add(view);
+
+// You can add your device ID (including the simulators!) to Greystripe to serve up test or production ads
+Ti.API.info(Ti.Platform.macaddress);
+
+window.open();
