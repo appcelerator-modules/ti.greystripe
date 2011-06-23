@@ -1,58 +1,54 @@
-# greystripe Module
+# Ti.Greystripe Module
 
 ## Description
 
 Module which provides access to the greystripe ad delivery system.
 
-## Accessing the greystripe Module
+## Accessing the Ti.Greystripe Module
 
 To access this module from JavaScript, you would do the following:
 
-	var greystripe = require("ti.greystripe");
-
-The greystripe variable is a reference to the Module object.	
-
-## Reference
+	Titanium.Greystripe = Ti.Greystripe = require("ti.greystripe");
 
 ## Functions
 
-### ti.greystripe.setup({...})
+### Ti.Greystripe.setup({...})
 
 Sets up and initializes the greystripe ad delivery system.  Takes one argument,
 a dictionary with properties:
 
-applicationId[string]: Your application's ID in the greystripe system  
-adSlots[array]: An array of available slots, composed of {size:...,name:...} dictionaries.
+* applicationId[string]: Your application's ID in the greystripe system
+* adSlots[array]: An array of available slots, composed of {size:...,name:...} dictionaries.
 
-### ti.greystripe.createView({...})
+### Ti.Greystripe.createView({...})
 
-Creates and returns a [ti.greystripe.View][] object.
+Creates and returns a [Ti.Greystripe.View][] object.
 
 ## Properties
 
-### ti.greystripe.BANNER
+### Ti.Greystripe.BANNER
 
 A size constant for a banner-sized (320x48) ad.
 
-### ti.greystripe.IPHONE_FULLSCREEN
+### Ti.Greystripe.IPHONE_FULLSCREEN
 
 A size constant for a fullscreen ad on iPhone/iPod.
 
-### ti.greystripe.IPAD_MEDIUM_RECTANGLE
+### Ti.Greystripe.IPAD_MEDIUM_RECTANGLE
 
 A size constant for a rectangular (300x250) ad on iPad.
 
-### ti.greystripe.IPAD_LEADERBOARD
+### Ti.Greystripe.IPAD_LEADERBOARD
 
 A size constant for a wide (728x90) ad on iPad
 
-### ti.greystripe.IPAD_WIDE_SKYSCRAPER
+### Ti.Greystripe.IPAD_WIDE_SKYSCRAPER
 
 A size constant for a tall (160x600) ad on iPad.
 
 ## Usage
 
-See example
+See example.
 
 ## Author
 
@@ -62,5 +58,5 @@ Jeff Haynie <jhaynie@appcelerator.com>, Appcelerator Inc.
 
 Copyright(c) 2010-2011 by Appcelerator, Inc. All Rights Reserved. Please see the LICENSE file included in the distribution for further details.
 
-[ti.greystripe.View]: view.html
+[Ti.Greystripe.View]: view.html
 
