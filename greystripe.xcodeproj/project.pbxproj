@@ -13,8 +13,8 @@
 		249BE59811B46E6000AF41CF /* libGreystripeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 249BE59711B46E6000AF41CF /* libGreystripeSDK.a */; };
 		249BE5BC11B4709300AF41CF /* TiGreystripeViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE5BA11B4709300AF41CF /* TiGreystripeViewProxy.h */; };
 		249BE5BD11B4709300AF41CF /* TiGreystripeViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BE5BB11B4709300AF41CF /* TiGreystripeViewProxy.m */; };
-		249BE5C011B470A200AF41CF /* TiGreystripeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE5BE11B470A200AF41CF /* TiGreystripeView.h */; };
-		249BE5C111B470A200AF41CF /* TiGreystripeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BE5BF11B470A200AF41CF /* TiGreystripeView.m */; };
+		A89E8AF213E1B55100C28E40 /* TiGreystripeView.h in Headers */ = {isa = PBXBuildFile; fileRef = A89E8AF013E1B55100C28E40 /* TiGreystripeView.h */; };
+		A89E8AF313E1B55100C28E40 /* TiGreystripeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A89E8AF113E1B55100C28E40 /* TiGreystripeView.m */; };
 		AA747D9F0F9514B9006C5449 /* greystripe_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* greystripe_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		DAA0153912540C020087958F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA0153812540C020087958F /* UIKit.framework */; };
@@ -36,9 +36,9 @@
 		249BE59711B46E6000AF41CF /* libGreystripeSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGreystripeSDK.a; sourceTree = "<group>"; };
 		249BE5BA11B4709300AF41CF /* TiGreystripeViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiGreystripeViewProxy.h; path = Classes/TiGreystripeViewProxy.h; sourceTree = "<group>"; };
 		249BE5BB11B4709300AF41CF /* TiGreystripeViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiGreystripeViewProxy.m; path = Classes/TiGreystripeViewProxy.m; sourceTree = "<group>"; };
-		249BE5BE11B470A200AF41CF /* TiGreystripeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiGreystripeView.h; sourceTree = "<group>"; };
-		249BE5BF11B470A200AF41CF /* TiGreystripeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiGreystripeView.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		A89E8AF013E1B55100C28E40 /* TiGreystripeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiGreystripeView.h; path = Classes/TiGreystripeView.h; sourceTree = "<group>"; };
+		A89E8AF113E1B55100C28E40 /* TiGreystripeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiGreystripeView.m; path = Classes/TiGreystripeView.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* greystripe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = greystripe_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libgreystripe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgreystripe.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,10 +117,10 @@
 			children = (
 				DAA015C6125410720087958F /* TiGreystripeModule.h */,
 				DAA015C7125410720087958F /* TiGreystripeModule.m */,
+				A89E8AF013E1B55100C28E40 /* TiGreystripeView.h */,
+				A89E8AF113E1B55100C28E40 /* TiGreystripeView.m */,
 				249BE5BA11B4709300AF41CF /* TiGreystripeViewProxy.h */,
 				249BE5BB11B4709300AF41CF /* TiGreystripeViewProxy.m */,
-				249BE5BE11B470A200AF41CF /* TiGreystripeView.h */,
-				249BE5BF11B470A200AF41CF /* TiGreystripeView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -156,8 +156,8 @@
 				249BE54811B46E5700AF41CF /* GSAdEngine.h in Headers */,
 				249BE54911B46E5700AF41CF /* GSAdView.h in Headers */,
 				249BE5BC11B4709300AF41CF /* TiGreystripeViewProxy.h in Headers */,
-				249BE5C011B470A200AF41CF /* TiGreystripeView.h in Headers */,
 				DAA015C8125410720087958F /* TiGreystripeModule.h in Headers */,
+				A89E8AF213E1B55100C28E40 /* TiGreystripeView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +212,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				249BE5BD11B4709300AF41CF /* TiGreystripeViewProxy.m in Sources */,
-				249BE5C111B470A200AF41CF /* TiGreystripeView.m in Sources */,
 				DAA015C9125410720087958F /* TiGreystripeModule.m in Sources */,
+				A89E8AF313E1B55100C28E40 /* TiGreystripeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +240,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = greystripe;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -260,7 +260,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = greystripe;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};

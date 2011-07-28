@@ -7,8 +7,6 @@
 
 #import "TiGreystripeViewProxy.h"
 
-#import "TiUtils.h"
-
 @implementation TiGreystripeViewProxy
 
 
