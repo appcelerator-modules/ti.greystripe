@@ -79,8 +79,8 @@ MAKE_SYSTEM_PROP(IPAD_WIDE_SKYSCRAPER,kGSAdSizeIPadWideSkyscraper);
 
 -(void)setup:(id)args
 {
-	ENSURE_DICT(args);
 	ENSURE_UI_THREAD(setup,args);
+	ENSURE_SINGLE_ARG(args,NSDictionary);
 	
 	NSString *applicationID = [args objectForKey:@"applicationId"];
 	id slots = [args objectForKey:@"adSlots"];
