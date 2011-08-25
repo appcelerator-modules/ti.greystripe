@@ -52,7 +52,11 @@ See example.
 
 ## Author
 
-Jeff Haynie <jhaynie@appcelerator.com>, Appcelerator Inc.
+Jeff Haynie
+
+## Feedback and Support
+
+Please direct all questions, feedback, and concerns to [info@appcelerator.com](mailto:info@appcelerator.com?subject=iOS%20Greystripe%20Module).
 
 ## License
 
