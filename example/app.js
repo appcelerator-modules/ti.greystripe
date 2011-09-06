@@ -1,5 +1,7 @@
 /**
  * We'll demonstrate how to display a banner ad with the Greystripe module.
+ * WARNING: On first launch, Greystripe can take 10-30 seconds before it is ready to display ads. Their SDK downloads
+ * ads in the background and updates itself, and this process can take time.
  */
 var window = Ti.UI.createWindow({ backgroundColor: '#fff' });
 
@@ -16,7 +18,7 @@ Ti.Greystripe.setup({
  * Now let's add a banner ad at the top of our app.
  */
 var view = Ti.Greystripe.createView({
-    height: 48,
+    height: '48dp',
     top: 0, left: 0, right: 0
 });
 window.add(view);
