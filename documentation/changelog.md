@@ -1,3 +1,5 @@
+# Change Log
+<pre>
 v1.1	Fixed crash with Titanium Mobile 1.8.0
 
 v1.0    Initial Release
