@@ -8,7 +8,7 @@ Module which provides access to the greystripe ad delivery system.
 
 To access this module from JavaScript, you would do the following:
 
-	Titanium.Greystripe = Ti.Greystripe = require("ti.greystripe");
+	var Greystripe = require('ti.greystripe');
 
 ## Functions
 

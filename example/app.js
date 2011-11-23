@@ -1,14 +1,14 @@
 var window = Ti.UI.createWindow({ backgroundColor: '#fff' });
 
-Titanium.Greystripe = Ti.Greystripe = require('ti.greystripe');
+var Greystripe = require('ti.greystripe');
 
-Ti.Greystripe.setup({
+Greystripe.setup({
     applicationId: '<<< YOUR APP ID HERE >>>', // Sign up at https://developer.greystripe.com/user/new
     adSlots: [
-        { size: Ti.Greystripe.BANNER, name: 'ad1'}
+        { size: Greystripe.BANNER, name: 'ad1'}
     ]
 });
-var view = Ti.Greystripe.createView({
+var view = Greystripe.createView({
     name: 'ad1',
     height: 48,
     top: 0, left: 0, right: 0
