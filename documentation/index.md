@@ -13,7 +13,7 @@ ads in the background and updates itself, and this process can take time.
 
 To access this module from JavaScript, you would do the following:
 
-	Titanium.Greystripe = Ti.Greystripe = require("ti.greystripe");
+	var Greystripe = require('ti.greystripe');
 
 ## Functions
 
