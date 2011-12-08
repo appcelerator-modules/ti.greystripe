@@ -25,7 +25,7 @@ public class View extends TiUIView {
 	}
 
 	private BannerView createPlayer() {
-		BannerView adview = new BannerView(proxy.getContext());
+		BannerView adview = new BannerView(proxy.getActivity());
 		adview.setGravity(Gravity.CENTER);
 		adview.addListener(new BannerListener() {
 			@Override

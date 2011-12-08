@@ -8,15 +8,14 @@ package ti.greystripe;
 import org.appcelerator.kroll.KrollDict;
 import org.appcelerator.kroll.KrollModule;
 import org.appcelerator.kroll.annotations.Kroll;
-
-import org.appcelerator.titanium.TiContext;
+import org.appcelerator.titanium.TiApplication;
 
 import com.greystripe.android.sdk.GSSDK;
 
 @Kroll.module(name = "Greystripe", id = "ti.greystripe")
 public class GreystripeModule extends KrollModule {
-	public GreystripeModule(TiContext tiContext) {
-		super(tiContext);
+	public GreystripeModule() {
+		super();
 	}
 
 	@Kroll.method
@@ -24,7 +23,7 @@ public class GreystripeModule extends KrollModule {
 		Constants.setApplicationId(args.containsKey("applicationId") ? args
 				.getString("applicationId") : args.getString("applicationID"));
 
-		Constants.setSDK(GSSDK.initialize(context.getAndroidContext(),
+		Constants.setSDK(GSSDK.initialize(TiApplication.getInstance(),
 				Constants.getApplicationId()));
 	}
 }
