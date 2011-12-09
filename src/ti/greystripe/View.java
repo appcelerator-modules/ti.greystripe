@@ -7,6 +7,7 @@ package ti.greystripe;
 
 import org.appcelerator.titanium.proxy.TiViewProxy;
 import org.appcelerator.titanium.view.TiUIView;
+import org.appcelerator.titanium.TiApplication;
 
 import com.greystripe.android.sdk.BannerListener;
 import com.greystripe.android.sdk.BannerView;
@@ -25,7 +26,7 @@ public class View extends TiUIView {
 	}
 
 	private BannerView createPlayer() {
-		BannerView adview = new BannerView(proxy.getActivity());
+		BannerView adview = new BannerView(TiApplication.getAppCurrentActivity());
 		adview.setGravity(Gravity.CENTER);
 		adview.addListener(new BannerListener() {
 			@Override
