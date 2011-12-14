@@ -12,6 +12,8 @@ import org.appcelerator.titanium.TiApplication;
 
 import com.greystripe.android.sdk.GSSDK;
 
+import java.util.HashMap;
+
 @Kroll.module(name = "Greystripe", id = "ti.greystripe")
 public class GreystripeModule extends KrollModule {
 	public GreystripeModule() {
@@ -19,9 +21,10 @@ public class GreystripeModule extends KrollModule {
 	}
 
 	@Kroll.method
-	public void setup(KrollDict args) {
-		Constants.setApplicationId(args.containsKey("applicationId") ? args
-				.getString("applicationId") : args.getString("applicationID"));
+	public void setup(HashMap args) {
+	    KrollDict argsDict = new KrollDict(args);
+		Constants.setApplicationId(args.containsKey("applicationId") ? argsDict
+				.getString("applicationId") : argsDict.getString("applicationID"));
 
 		Constants.setSDK(GSSDK.initialize(TiApplication.getInstance(),
 				Constants.getApplicationId()));
