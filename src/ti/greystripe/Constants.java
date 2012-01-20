@@ -5,7 +5,7 @@
  */
 package ti.greystripe;
 
-import org.appcelerator.titanium.util.TiConfig;
+import org.appcelerator.kroll.common.TiConfig;
 
 import com.greystripe.android.sdk.GSSDK;
 
