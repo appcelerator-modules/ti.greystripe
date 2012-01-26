@@ -2,7 +2,7 @@
 //  GSAdEngine.h
 //  GreystripeSDK
 //
-//  Copyright 2010 Greystripe, Inc. All rights reserved.
+//  Copyright 2011 Greystripe, Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

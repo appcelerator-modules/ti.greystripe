@@ -2,7 +2,7 @@
 //  GSAdView.h
 //  GreystripeSDK
 //
-//  Copyright 2010 Greystripe, Inc. All rights reserved.
+//  Copyright 2011 Greystripe, Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -15,7 +15,13 @@
 /**
  * Minimum refresh interval between ad displays in a single GSAdView. Use this
  * interval if you'd like to have an auto-refreshing GSAdView that refreshes
- * as often as possible. This value is currently 30 seconds.
+ * as often as possible, but note that because the interval is small you may
+ * distract users. The small value is instead intended to allow closely 
+ * co-occurring ad requests that might happen naturally from, for example, a 
+ * user's navigating between different views in your app where GSAdViews are
+ * shown.
+ *
+ * This value is currently 5 seconds.
  */
 extern const NSTimeInterval kGSMinimumRefreshInterval;
 
