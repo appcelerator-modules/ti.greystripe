@@ -1,5 +1,5 @@
 /// @file GreystripeDelegate.h
-//  Copyright 2010 Greystripe, Inc. All rights reserved.
+//  Copyright 2011 Greystripe, Inc. All rights reserved.
 
 @protocol GreystripeDelegate <NSObject>
 
