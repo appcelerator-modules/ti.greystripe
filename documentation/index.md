@@ -25,7 +25,13 @@ To access this module from JavaScript, you would do the following:
 
 	var Greystripe = require('ti.greystripe');
 
-## Functions
+## Properties
+
+### Ti.Greystripe.isAdReady
+
+Whether or not there is an ad ready to be displayed.
+
+## Methods
 
 ### Ti.Greystripe.setup({...})
 

@@ -29,4 +29,10 @@ public class GreystripeModule extends KrollModule {
 		Constants.setSDK(GSSDK.initialize(TiApplication.getInstance(),
 				Constants.getApplicationId()));
 	}
+	
+	@Kroll.method
+	@Kroll.getProperty
+	public boolean getIsAdReady() {
+		return GSSDK.getSharedInstance().isAdReady();
+	}
 }
