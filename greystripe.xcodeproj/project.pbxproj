@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		249BE54711B46E5700AF41CF /* GreystripeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE54411B46E5700AF41CF /* GreystripeDelegate.h */; };
-		249BE54811B46E5700AF41CF /* GSAdEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE54511B46E5700AF41CF /* GSAdEngine.h */; };
-		249BE54911B46E5700AF41CF /* GSAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE54611B46E5700AF41CF /* GSAdView.h */; };
-		249BE59811B46E6000AF41CF /* libGreystripeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 249BE59711B46E6000AF41CF /* libGreystripeSDK.a */; };
 		249BE5BC11B4709300AF41CF /* TiGreystripeViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE5BA11B4709300AF41CF /* TiGreystripeViewProxy.h */; };
 		249BE5BD11B4709300AF41CF /* TiGreystripeViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BE5BB11B4709300AF41CF /* TiGreystripeViewProxy.m */; };
 		A89E8AF213E1B55100C28E40 /* TiGreystripeView.h in Headers */ = {isa = PBXBuildFile; fileRef = A89E8AF013E1B55100C28E40 /* TiGreystripeView.h */; };
 		A89E8AF313E1B55100C28E40 /* TiGreystripeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A89E8AF113E1B55100C28E40 /* TiGreystripeView.m */; };
+		A8B4B892153F6A7D003E1AE0 /* GreystripeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B4B88D153F6A7D003E1AE0 /* GreystripeDelegate.h */; };
+		A8B4B893153F6A7D003E1AE0 /* GSAdEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B4B88E153F6A7D003E1AE0 /* GSAdEngine.h */; };
+		A8B4B894153F6A7D003E1AE0 /* GSAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B4B88F153F6A7D003E1AE0 /* GSAdView.h */; };
+		A8B4B895153F6A7D003E1AE0 /* libGreystripeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B4B890153F6A7D003E1AE0 /* libGreystripeSDK.a */; };
 		AA747D9F0F9514B9006C5449 /* TiGreystripe_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiGreystripe_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		DAA0153912540C020087958F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA0153812540C020087958F /* UIKit.framework */; };
@@ -30,18 +30,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		249BE54411B46E5700AF41CF /* GreystripeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreystripeDelegate.h; sourceTree = "<group>"; };
-		249BE54511B46E5700AF41CF /* GSAdEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAdEngine.h; sourceTree = "<group>"; };
-		249BE54611B46E5700AF41CF /* GSAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAdView.h; sourceTree = "<group>"; };
-		249BE59711B46E6000AF41CF /* libGreystripeSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGreystripeSDK.a; sourceTree = "<group>"; };
 		249BE5BA11B4709300AF41CF /* TiGreystripeViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiGreystripeViewProxy.h; path = Classes/TiGreystripeViewProxy.h; sourceTree = "<group>"; };
 		249BE5BB11B4709300AF41CF /* TiGreystripeViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiGreystripeViewProxy.m; path = Classes/TiGreystripeViewProxy.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		A89E8AF013E1B55100C28E40 /* TiGreystripeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiGreystripeView.h; path = Classes/TiGreystripeView.h; sourceTree = "<group>"; };
 		A89E8AF113E1B55100C28E40 /* TiGreystripeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiGreystripeView.m; path = Classes/TiGreystripeView.m; sourceTree = "<group>"; };
+		A8B4B88D153F6A7D003E1AE0 /* GreystripeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreystripeDelegate.h; sourceTree = "<group>"; };
+		A8B4B88E153F6A7D003E1AE0 /* GSAdEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAdEngine.h; sourceTree = "<group>"; };
+		A8B4B88F153F6A7D003E1AE0 /* GSAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAdView.h; sourceTree = "<group>"; };
+		A8B4B890153F6A7D003E1AE0 /* libGreystripeSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGreystripeSDK.a; sourceTree = "<group>"; };
+		A8B4B891153F6A7D003E1AE0 /* version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = version; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* TiGreystripe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiGreystripe_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libgreystripe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgreystripe.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC07E0554694100DB518D /* libTiGreystripe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTiGreystripe.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA0153812540C020087958F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DAA015A812540DD60087958F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		DAA015AB12540DDB0087958F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -60,7 +61,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
-				249BE59811B46E6000AF41CF /* libGreystripeSDK.a in Frameworks */,
 				DAA0153912540C020087958F /* UIKit.framework in Frameworks */,
 				DAA015A912540DD60087958F /* AudioToolbox.framework in Frameworks */,
 				DAA015AC12540DDB0087958F /* AVFoundation.framework in Frameworks */,
@@ -69,6 +69,7 @@
 				DAA015B512540DFF0087958F /* OpenAL.framework in Frameworks */,
 				DAA015B812540E0E0087958F /* QuartzCore.framework in Frameworks */,
 				DAA015BA12540E0E0087958F /* SystemConfiguration.framework in Frameworks */,
+				A8B4B895153F6A7D003E1AE0 /* libGreystripeSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +79,7 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libgreystripe.a */,
+				D2AAC07E0554694100DB518D /* libTiGreystripe.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,7 +87,7 @@
 		0867D691FE84028FC02AAC07 /* greystripe */ = {
 			isa = PBXGroup;
 			children = (
-				249BE54311B46E5700AF41CF /* headers */,
+				A8B4B88C153F6A7D003E1AE0 /* lib */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
@@ -98,7 +99,6 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				249BE59711B46E6000AF41CF /* libGreystripeSDK.a */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 				DAA0153812540C020087958F /* UIKit.framework */,
 				DAA015A812540DD60087958F /* AudioToolbox.framework */,
@@ -125,16 +125,6 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
-		249BE54311B46E5700AF41CF /* headers */ = {
-			isa = PBXGroup;
-			children = (
-				249BE54411B46E5700AF41CF /* GreystripeDelegate.h */,
-				249BE54511B46E5700AF41CF /* GSAdEngine.h */,
-				249BE54611B46E5700AF41CF /* GSAdView.h */,
-			);
-			path = headers;
-			sourceTree = "<group>";
-		};
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +132,18 @@
 				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A8B4B88C153F6A7D003E1AE0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A8B4B88D153F6A7D003E1AE0 /* GreystripeDelegate.h */,
+				A8B4B88E153F6A7D003E1AE0 /* GSAdEngine.h */,
+				A8B4B88F153F6A7D003E1AE0 /* GSAdView.h */,
+				A8B4B890153F6A7D003E1AE0 /* libGreystripeSDK.a */,
+				A8B4B891153F6A7D003E1AE0 /* version */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,12 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA747D9F0F9514B9006C5449 /* TiGreystripe_Prefix.pch in Headers */,
-				249BE54711B46E5700AF41CF /* GreystripeDelegate.h in Headers */,
-				249BE54811B46E5700AF41CF /* GSAdEngine.h in Headers */,
-				249BE54911B46E5700AF41CF /* GSAdView.h in Headers */,
 				249BE5BC11B4709300AF41CF /* TiGreystripeViewProxy.h in Headers */,
 				DAA015C8125410720087958F /* TiGreystripeModule.h in Headers */,
 				A89E8AF213E1B55100C28E40 /* TiGreystripeView.h in Headers */,
+				A8B4B892153F6A7D003E1AE0 /* GreystripeDelegate.h in Headers */,
+				A8B4B893153F6A7D003E1AE0 /* GSAdEngine.h in Headers */,
+				A8B4B894153F6A7D003E1AE0 /* GSAdView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +180,7 @@
 			);
 			name = greystripe;
 			productName = greystripe;
-			productReference = D2AAC07E0554694100DB518D /* libgreystripe.a */;
+			productReference = D2AAC07E0554694100DB518D /* libTiGreystripe.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -235,7 +237,11 @@
 				"ARCHS[sdk=iphonesimulator*]" = i386;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiGreystripe.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiGreystripe_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -247,27 +253,23 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TiGreystripe_Prefix.pch";
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/lib\"",
 				);
-				PRODUCT_NAME = "TiGreystripe";
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiGreystripe;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
-				DSTROOT = "/tmp/TiGreystripe.dst";
 			};
 			name = Debug;
 		};
@@ -275,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (
 					armv6,
 					armv7,
@@ -284,7 +287,11 @@
 					armv7,
 				);
 				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DSTROOT = /tmp/TiGreystripe.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiGreystripe_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -296,26 +303,19 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TiGreystripe_Prefix.pch";
 				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/lib\"",
 				);
-				PRODUCT_NAME = "TiGreystripe";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PRODUCT_NAME = TiGreystripe;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = "/tmp/TiGreystripe.dst";
 			};
 			name = Release;
 		};
@@ -334,7 +334,11 @@
 				"ARCHS[sdk=iphonesimulator*]" = i386;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiGreystripe.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiGreystripe_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -346,22 +350,18 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TiGreystripe_Prefix.pch";
 				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = "TiGreystripe";
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiGreystripe;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
-				DSTROOT = "/tmp/TiGreystripe.dst";
 			};
 			name = Debug;
 		};
@@ -369,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (
 					armv6,
 					armv7,
@@ -378,7 +379,11 @@
 					armv7,
 				);
 				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DSTROOT = /tmp/TiGreystripe.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiGreystripe_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -390,44 +395,14 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TiGreystripe_Prefix.pch";
 				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = "TiGreystripe";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PRODUCT_NAME = TiGreystripe;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = "/tmp/TiGreystripe.dst";
-			};
-			name = Release;
-		};
-		24416B8211C4CA220047AFDD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = "Build & test";
-			};
-			name = Debug;
-		};
-		24416B8311C4CA220047AFDD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PRODUCT_NAME = "Build & test";
-				ZERO_LINK = NO;
 			};
 			name = Release;
 		};

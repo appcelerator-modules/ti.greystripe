@@ -85,6 +85,8 @@ MAKE_SYSTEM_PROP(IPAD_WIDE_SKYSCRAPER,kGSAdSizeIPadWideSkyscraper);
 	NSString *applicationID = [args objectForKey:@"applicationId"];
 	id slots = [args objectForKey:@"adSlots"];
 	ENSURE_ARRAY(slots);
+    
+    NSLog(@"Greystripe hashedDeviceIdentifier: %@", [GSAdEngine hashedDeviceIdentifier]);
 	
 	NSMutableArray *slotpairs = [NSMutableArray array];
 	

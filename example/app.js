@@ -15,7 +15,4 @@ var view = Greystripe.createView({
 });
 window.add(view);
 
-// You can add your device ID (including the simulators!) to Greystripe to serve up test or production ads
-Ti.API.info(Ti.Platform.macaddress);
-
 window.open();
