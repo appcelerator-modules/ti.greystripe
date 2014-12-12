@@ -1,6 +1,6 @@
 # Change Log
 <pre>
-v1.3.0  Updated module to 64-bit architecture
+v1.3.0  Updated module to support 64-bit [TIMOB-18092]
 
 v1.2.1	Upgraded to Greystripe SDK 3.2.0 to remove UDID [MOD-621]
 

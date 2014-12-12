@@ -3,7 +3,7 @@
 # during compilation, packaging, distribution, etc.
 #
 version: 1.3.0
-architectures: armeabi armeabi-v7a x86
+architectures: armv7 i386 x86_64 arm64
 description: Greystripe ad module
 author: Jeff Haynie 
 license: Appcelerator Commercial License 
@@ -15,4 +15,4 @@ name: greystripe
 moduleid: ti.greystripe
 guid: 03dc7887-2abe-4bb5-bd9a-00910721a1f4
 platform: iphone
-minsdk: 3.4.1
+minsdk: 3.4.1.GA
