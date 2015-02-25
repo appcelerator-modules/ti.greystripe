@@ -4,6 +4,7 @@
 #
 version: 2.1
 apiversion: 2
+architectures: armeabi armeabi-v7a x86
 description: Greystripe ad module
 author: Dawson Toth 
 license: Appcelerator Commercial License 
